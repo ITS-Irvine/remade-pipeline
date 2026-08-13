@@ -1,0 +1,17 @@
+{
+  "version": "1.0.1",
+  "release_date": "2026-08-13T21:57:03Z",
+  "git_commit": "b73b946c5332a957ec4f6ee577f79556da2b1489",
+  "git_branch": "main",
+  "python_minimum_version": "3.10",
+  "included_modules": [
+    "config",
+    "core",
+    "layers",
+    "services",
+    "utils",
+    "tools",
+    "analysis"
+  ],
+  "main_script": "pipeline.py"
+}

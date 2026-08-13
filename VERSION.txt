@@ -1,0 +1,16 @@
+Pipeline Release Information
+============================
+
+Version: 1.0.1
+Release Date: 2026-08-13T21:57:03Z
+Git Commit: b73b946c5332a957ec4f6ee577f79556da2b1489
+Branch: main
+
+To deploy:
+1. Extract this archive
+2. Set up Python environment: python -m venv venv && source venv/bin/activate
+3. Install dependencies: pip install -r requirements.txt
+4. Copy settings files (if needed): cp settings.toml paths.toml .env
+5. Run: python pipeline.py run --help
+
+For detailed setup, see SETUP.md
